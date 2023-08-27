@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = form_registrar_jugadores_net
 build_property.RootNamespace = form_registrar_jugadores_net
-build_property.ProjectDir = D:\workspace\projects\form-registrar-jugadores-net\
+build_property.ProjectDir = d:\workspace\projects\form-registrar-jugadores-net\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\workspace\projects\form-registrar-jugadores-net
+build_property.MSBuildProjectDirectory = d:\workspace\projects\form-registrar-jugadores-net
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/Formulario/Index.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/Formulario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/Home/Index.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/Home/Privacy.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/Shared/Error.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/_ViewImports.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/_ViewStart.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/projects/form-registrar-jugadores-net/Views/Shared/_Layout.cshtml]
+[d:/workspace/projects/form-registrar-jugadores-net/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-v7avpszam2
