@@ -27,6 +27,17 @@ namespace form_registrar_jugadores_net.Controllers
         [HttpPost]
         public IActionResult Formulario(Formulario obj)
         {
+            if(obj.verificar()) {
+                ViewData["Resultado"] = 
+                "<h4>Registro exitoso</h4>" + 
+                "<p>Jugador: " + obj.nombre + "</p>"+
+                "<p>Club: " + obj.equipo + "</p>"+
+                "<p>Temporadas: " + obj.num_temporadas + "</p>" +
+                "<p>Meses: " + obj.num_meses + "</p>" +
+                "<p>Monto total a pagar: <br> Monto: " + obj.calcularPago() + "<br>Impuesto del 19%:  " + obj.calcularImpuesto() +  "<br>Total: " + obj.calcularMontoTotal() +"</p>";
+            }else {
+                ViewData["Resultado"] = "Porfavor, rellene todos los campos";
+            }
             return View("Index");
         }
 
