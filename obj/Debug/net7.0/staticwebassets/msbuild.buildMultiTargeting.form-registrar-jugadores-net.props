@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\form-registrar-jugadores-net.props" />
+</Project>

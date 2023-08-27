@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\form-registrar-jugadores-net.props" />
+</Project>

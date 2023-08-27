@@ -1,0 +1,73 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/form_style.css">
+</head>
+<body>
+<div class="text-center">
+    <h2 class="title">Formulario de Jugador de Futbol</h2>
+    <form asp-controller="Formulario" asp-action="Formulario" method="post" class="form-container">
+        <label for="nombre" class="label-text">Nombre:<br /><input type="edad" id="nombre" name="nombre"></label><br />
+        <label for="edad" class="label-text">Edad:<br /><input type="edad" id="edad" name="edad"></label><br />
+        <fieldset class="fs-container">
+            <label class="label-text">Genero:</label><br />
+            <label>
+                <input type="radio" name="genero" value="Masculino"> Masculino
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="genero" value="Femenino"> Femenino
+            </label>
+        </fieldset>
+        <label for="Equipo" class="label-select">Equipo:<br />
+        <select name="equipo" id="curso">
+            <option value="Universitario" selected>Universitario</option>
+            <option value="Alianza Lima">Alianza Lima</option>
+            <option value="S. Cristal">S. Cristal</option>
+            <option value="Cienciano">Cienciano</option>
+            <option value="Fbc Melgar">Fbc Melgar</option>
+        </select>
+        </label>
+            <br>
+        <label for="Categoria" class="label-select">Categoria:<br />
+        <select name="categoria" id="Categoria">
+            <option value="Universitario" selected>Sub-15</option>
+            <option value="Alianza Lima">Sub-17</option>
+            <option value="S. Cristal">Sub-20</option>
+            <option value="Cienciano">Sub-23</option>
+        </select>
+        </label>
+            <br>
+        <label for="numero_meses" class="label-select">Número de meses a inscribirse:<br />
+        <select name="num_meses" id="numero_meses">
+            <option value="6" selected>6 meses</option>
+            <option value="12">12 meses</option>
+            <option value="18">18 meses</option>
+            <option value="24">24 meses</option>
+        </select>
+        </label>
+            <br>
+        <label for="numero_meses" class="label-select">Número de temporadas:<br />
+        <select name="num_temporadas" id="numero_temporadas">
+            <option value="1" selected>1 Temporada</option>
+            <option value="2">2 Temporada</option>
+            <option value="3">3 Temporada</option>
+            <option value="4">4 Temporada</option>
+        </select>
+        </label>
+
+        <br><br>
+        <input type="submit" value="Enviar" class="btn-submit">
+        <p style="color: rgb(110, 110, 110); font-size: 13px; margin-top: 5px">6 meses = 300 Soles</p>
+        <p style="color: rgb(110, 110, 110); font-size: 13px; margin-top: -20px">+ Impuesto 19%</p>
+    </form>
+    <br>
+    <div class="resultado">
+    @Html.Raw(ViewData["Resultado"])
+    </div>
+</div>
+</body>
+</html>
